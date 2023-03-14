@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		28A206A529C0B77700F68358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206A429C0B77700F68358 /* AppDelegate.swift */; };
 		28A206A729C0B77700F68358 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206A629C0B77700F68358 /* SceneDelegate.swift */; };
-		28A206A929C0B77700F68358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206A829C0B77700F68358 /* ViewController.swift */; };
-		28A206AC29C0B77700F68358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A206AA29C0B77700F68358 /* Main.storyboard */; };
 		28A206AE29C0B77900F68358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A206AD29C0B77900F68358 /* Assets.xcassets */; };
 		28A206B129C0B77900F68358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A206AF29C0B77900F68358 /* LaunchScreen.storyboard */; };
+		28A206BA29C0B83200F68358 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 28A206B929C0B83200F68358 /* SnapKit */; };
+		28A206BE29C0B89E00F68358 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206BD29C0B89E00F68358 /* StartViewController.swift */; };
+		28A206C029C0B8AA00F68358 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206BF29C0B8AA00F68358 /* SecondViewController.swift */; };
+		28A206C329C0F81B00F68358 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A206C129C0F81B00F68358 /* TableViewCell.swift */; };
+		28A206C429C0F81B00F68358 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28A206C229C0F81B00F68358 /* TableViewCell.xib */; };
+		A50D72DE41F0A1E887DF57C2 /* Pods_Final_test_task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B231C5CAFF2DD9D923E1A1EE /* Pods_Final_test_task.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136A1D1F12997664134357BC /* Pods-Final_test_task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_test_task.release.xcconfig"; path = "Target Support Files/Pods-Final_test_task/Pods-Final_test_task.release.xcconfig"; sourceTree = "<group>"; };
 		28A206A129C0B77700F68358 /* Final_test_task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Final_test_task.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28A206A429C0B77700F68358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28A206A629C0B77700F68358 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28A206A829C0B77700F68358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		28A206AB29C0B77700F68358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28A206AD29C0B77900F68358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A206B029C0B77900F68358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28A206B229C0B77900F68358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A206BD29C0B89E00F68358 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		28A206BF29C0B8AA00F68358 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		28A206C129C0F81B00F68358 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		28A206C229C0F81B00F68358 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		814AC346BF620D649732E430 /* Pods-Final_test_task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final_test_task.debug.xcconfig"; path = "Target Support Files/Pods-Final_test_task/Pods-Final_test_task.debug.xcconfig"; sourceTree = "<group>"; };
+		B231C5CAFF2DD9D923E1A1EE /* Pods_Final_test_task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_test_task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28A206BA29C0B83200F68358 /* SnapKit in Frameworks */,
+				A50D72DE41F0A1E887DF57C2 /* Pods_Final_test_task.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				28A206A329C0B77700F68358 /* Final_test_task */,
 				28A206A229C0B77700F68358 /* Products */,
+				2EC3C8ADA2482118E2E7377B /* Pods */,
+				4D080C71D23FAA3C306D696C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,50 @@
 		28A206A329C0B77700F68358 /* Final_test_task */ = {
 			isa = PBXGroup;
 			children = (
-				28A206A429C0B77700F68358 /* AppDelegate.swift */,
-				28A206A629C0B77700F68358 /* SceneDelegate.swift */,
-				28A206A829C0B77700F68358 /* ViewController.swift */,
-				28A206AA29C0B77700F68358 /* Main.storyboard */,
+				28A206BC29C0B87900F68358 /* Delegate */,
+				28A206BB29C0B87000F68358 /* Common */,
 				28A206AD29C0B77900F68358 /* Assets.xcassets */,
 				28A206AF29C0B77900F68358 /* LaunchScreen.storyboard */,
 				28A206B229C0B77900F68358 /* Info.plist */,
 			);
 			path = Final_test_task;
+			sourceTree = "<group>";
+		};
+		28A206BB29C0B87000F68358 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				28A206BD29C0B89E00F68358 /* StartViewController.swift */,
+				28A206C129C0F81B00F68358 /* TableViewCell.swift */,
+				28A206C229C0F81B00F68358 /* TableViewCell.xib */,
+				28A206BF29C0B8AA00F68358 /* SecondViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		28A206BC29C0B87900F68358 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				28A206A429C0B77700F68358 /* AppDelegate.swift */,
+				28A206A629C0B77700F68358 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		2EC3C8ADA2482118E2E7377B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				814AC346BF620D649732E430 /* Pods-Final_test_task.debug.xcconfig */,
+				136A1D1F12997664134357BC /* Pods-Final_test_task.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4D080C71D23FAA3C306D696C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B231C5CAFF2DD9D923E1A1EE /* Pods_Final_test_task.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +122,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28A206B529C0B77900F68358 /* Build configuration list for PBXNativeTarget "Final_test_task" */;
 			buildPhases = (
+				9F36B35146E8B63EF637697E /* [CP] Check Pods Manifest.lock */,
 				28A2069D29C0B77700F68358 /* Sources */,
 				28A2069E29C0B77700F68358 /* Frameworks */,
 				28A2069F29C0B77700F68358 /* Resources */,
+				AC0B7C52FD78BCC04549177C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Final_test_task;
+			packageProductDependencies = (
+				28A206B929C0B83200F68358 /* SnapKit */,
+			);
 			productName = Final_test_task;
 			productReference = 28A206A129C0B77700F68358 /* Final_test_task.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +164,9 @@
 				Base,
 			);
 			mainGroup = 28A2069829C0B77700F68358;
+			packageReferences = (
+				28A206B829C0B83200F68358 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 28A206A229C0B77700F68358 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,35 +182,71 @@
 			buildActionMask = 2147483647;
 			files = (
 				28A206B129C0B77900F68358 /* LaunchScreen.storyboard in Resources */,
+				28A206C429C0F81B00F68358 /* TableViewCell.xib in Resources */,
 				28A206AE29C0B77900F68358 /* Assets.xcassets in Resources */,
-				28A206AC29C0B77700F68358 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F36B35146E8B63EF637697E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Final_test_task-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC0B7C52FD78BCC04549177C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final_test_task/Pods-Final_test_task-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Final_test_task/Pods-Final_test_task-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Final_test_task/Pods-Final_test_task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28A2069D29C0B77700F68358 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A206A929C0B77700F68358 /* ViewController.swift in Sources */,
+				28A206C329C0F81B00F68358 /* TableViewCell.swift in Sources */,
+				28A206C029C0B8AA00F68358 /* SecondViewController.swift in Sources */,
 				28A206A529C0B77700F68358 /* AppDelegate.swift in Sources */,
 				28A206A729C0B77700F68358 /* SceneDelegate.swift in Sources */,
+				28A206BE29C0B89E00F68358 /* StartViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28A206AA29C0B77700F68358 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				28A206AB29C0B77700F68358 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		28A206AF29C0B77900F68358 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +374,7 @@
 		};
 		28A206B629C0B77900F68358 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 814AC346BF620D649732E430 /* Pods-Final_test_task.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +385,6 @@
 				INFOPLIST_FILE = Final_test_task/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +402,7 @@
 		};
 		28A206B729C0B77900F68358 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136A1D1F12997664134357BC /* Pods-Final_test_task.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +413,6 @@
 				INFOPLIST_FILE = Final_test_task/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +450,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		28A206B829C0B83200F68358 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		28A206B929C0B83200F68358 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 28A206B829C0B83200F68358 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 28A2069929C0B77700F68358 /* Project object */;
 }
